@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Assinatura de email CONCRECIA">
+  <title>Aplicação — Assinatura de Email</title>
+
+  <defs>
+    <symbol id="cc-mark" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+      <g fill="currentColor">
+        <g transform="translate(70 70) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+        <g transform="translate(100 100) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+        <g transform="translate(130 130) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- janela de email -->
+  <rect width="800" height="360" fill="#FAFAF8"/>
+  <rect width="800" height="36" fill="#EAE8E2"/>
+  <circle cx="20" cy="18" r="5" fill="#D72638"/>
+  <circle cx="38" cy="18" r="5" fill="#F5C518"/>
+  <circle cx="56" cy="18" r="5" fill="#5E9E5E"/>
+  <text x="400" y="22" text-anchor="middle"
+    font-family="JetBrains Mono, monospace" font-size="10"
+    fill="#5E5B53">Nova mensagem · contato@concrecia.com.br</text>
+
+  <!-- corpo do email -->
+  <g transform="translate(60 80)">
+    <text font-family="Inter, sans-serif" font-size="13" fill="#3D3B36">
+      <tspan x="0" y="0">Atenciosamente,</tspan>
+    </text>
+
+    <!-- linha divisória -->
+    <line x1="0" y1="30" x2="120" y2="30" stroke="#D5D2C9" stroke-width="1"/>
+
+    <!-- assinatura -->
+    <g transform="translate(0 50)">
+      <!-- logo -->
+      <g transform="translate(0 0)">
+        <use href="#cc-mark" width="80" height="80" color="#F5C518"/>
+      </g>
+
+      <!-- divisor vertical amarelo -->
+      <rect x="100" y="0" width="3" height="120" fill="#F5C518"/>
+
+      <!-- info -->
+      <g transform="translate(125 0)">
+        <text font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="18" fill="#0A1F5C">
+          <tspan x="0" y="14">NOME SOBRENOME</tspan>
+        </text>
+        <text font-family="Inter, sans-serif" font-size="11" fill="#5E5B53">
+          <tspan x="0" y="32">Gerente Comercial · CONCRECIA</tspan>
+        </text>
+
+        <!-- linha divisória -->
+        <line x1="0" y1="46" x2="450" y2="46" stroke="#EAE8E2"/>
+
+        <!-- contatos em grid -->
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#3D3B36">
+          <text x="0" y="68"><tspan fill="#8C887D">T</tspan>  +55 16 99126-5646</text>
+          <text x="0" y="86"><tspan fill="#8C887D">E</tspan>  contato@concrecia.com.br</text>
+          <text x="0" y="104"><tspan fill="#8C887D">W</tspan>  www.concrecia.com.br</text>
+          <text x="230" y="68"><tspan fill="#8C887D">END</tspan>  Ribeirão Preto · SP</text>
+          <text x="230" y="86"><tspan fill="#8C887D">CNPJ</tspan> 00.000.000/0001-00</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- aviso de confidencialidade -->
+    <text x="0" y="230" font-family="Inter, sans-serif" font-size="9" fill="#8C887D" font-style="italic">
+      Esta mensagem é confidencial e destinada ao remetente. Construindo confiança desde 2009.
+    </text>
+  </g>
+</svg>

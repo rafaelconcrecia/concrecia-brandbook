@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Template redes sociais CONCRECIA">
+  <title>Aplicação — Redes Sociais (1:1 + Stories)</title>
+
+  <defs>
+    <symbol id="cc-mark" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+      <g fill="currentColor">
+        <g transform="translate(70 70) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+        <g transform="translate(100 100) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+        <g transform="translate(130 130) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+      </g>
+    </symbol>
+
+    <symbol id="cc-wordmark" viewBox="40 400 727 125" preserveAspectRatio="xMidYMid meet">
+      <g transform="translate(0,800) scale(0.1,-0.1)" fill="currentColor" stroke="none">
+        <path d="M5940 3981 c-123 -18 -222 -73 -314 -172 -71 -77 -124 -173 -147 -269 -18 -70 -17 -259 0 -330 51 -209 217 -381 406 -421 84 -18 218 -16 295 5 76 20 194 72 212 94 9 10 12 49 10 125 -2 61 -4 113 -6 114 -2 2 -47 -19 -100 -46 -238 -122 -450 -75 -554 124 -25 46 -27 59 -27 175 0 117 2 128 27 177 104 196 318 245 554 128 40 -19 77 -35 83 -35 8 0 11 36 9 122 l-3 122 -39 22 c-101 57 -273 84 -406 65z"/>
+        <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        <path d="M1701 3665 c-137 -45 -242 -171 -276 -332 -20 -92 -19 -135 5 -222 27 -96 49 -137 109 -203 86 -95 202 -133 348 -116 84 10 148 42 214 108 90 89 129 194 129 345 0 125 -41 225 -132 321 -71 75 -147 107 -263 111 -58 1 -106 -3 -134 -12z m227 -184 c83 -42 125 -127 125 -251 0 -98 -13 -138 -68 -198 -47 -53 -107 -76 -183 -70 -82 6 -138 44 -177 123 -27 54 -30 69 -29 150 0 104 20 160 76 212 67 64 170 78 256 34z"/>
+        <path d="M3534 3661 c-109 -37 -191 -107 -244 -208 -69 -134 -66 -337 7 -463 41 -69 107 -134 170 -166 55 -28 64 -29 188 -29 129 0 131 0 200 35 l70 35 3 89 c2 69 0 87 -10 83 -7 -3 -49 -22 -93 -41 -101 -45 -182 -49 -260 -12 -97 45 -145 128 -145 251 0 121 45 197 143 244 89 43 176 37 289 -19 33 -16 64 -27 69 -24 5 3 9 41 9 84 0 73 -2 80 -26 99 -72 57 -264 79 -370 42z"/>
+        <path d="M2375 3648 c-3 -13 -4 -207 -3 -433 l3 -410 82 -3 83 -3 2 267 c2 191 6 268 15 271 6 2 80 -94 164 -214 84 -120 170 -242 191 -271 l39 -53 72 3 72 3 0 430 0 430 -82 3 -83 3 0 -256 c0 -239 -1 -256 -17 -253 -10 2 -89 102 -176 223 -228 318 -194 285 -282 285 -69 0 -75 -2 -80 -22z"/>
+        <path d="M4097 3664 c-4 -4 -7 -200 -7 -435 l0 -427 71 -4 c39 -2 77 1 85 5 11 6 14 41 14 171 0 181 3 191 59 180 64 -13 88 -51 171 -271 l31 -83 90 0 c55 0 89 4 89 10 0 15 -83 235 -110 292 -12 25 -30 54 -41 64 -26 23 -24 48 6 68 13 9 37 37 52 63 24 41 28 59 28 123 0 65 -4 82 -31 130 -22 38 -46 64 -79 85 l-48 30 -186 3 c-103 2 -190 0 -194 -4z m308 -158 c41 -17 55 -42 55 -96 0 -33 -6 -48 -30 -71 -28 -28 -34 -30 -97 -27 l-68 3 -3 89 c-2 49 -1 95 2 103 7 18 97 17 141 -1z"/>
+        <path d="M4812 3658 c-14 -14 -17 -824 -4 -846 7 -9 66 -12 263 -10 l254 3 0 70 0 70 -170 5 -170 5 0 105 0 105 157 3 c180 3 172 -1 166 98 l-3 49 -149 3 c-90 1 -155 7 -163 14 -13 11 -19 141 -7 172 5 14 30 16 170 16 l164 0 0 75 0 75 -248 0 c-180 0 -251 -3 -260 -12z"/>
+        <path d="M6585 3648 c-3 -7 -4 -204 -3 -438 l3 -425 80 0 80 0 3 438 2 437 -80 0 c-55 0 -82 -4 -85 -12z"/>
+        <path d="M7141 3638 c-9 -23 -223 -672 -259 -783 -11 -33 -18 -63 -15 -67 2 -5 40 -8 84 -8 90 0 88 -2 122 100 l22 65 161 3 c129 2 163 0 173 -12 6 -7 22 -45 35 -82 l23 -69 83 -3 c46 -2 87 1 91 5 6 7 -285 829 -305 862 -5 7 -45 11 -107 11 -94 0 -100 -1 -108 -22z m124 -218 c18 -29 103 -294 98 -306 -8 -21 -201 -20 -209 1 -3 8 5 49 19 92 14 43 35 111 47 151 20 69 31 84 45 62z"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- POST QUADRADO 1:1 -->
+  <g transform="translate(40 40)">
+    <rect width="280" height="280" fill="#0A1F5C"/>
+    <!-- grid sutil de fundo -->
+    <g stroke="#142A75" stroke-width="1">
+      <line x1="0" y1="70" x2="280" y2="70"/>
+      <line x1="0" y1="140" x2="280" y2="140"/>
+      <line x1="0" y1="210" x2="280" y2="210"/>
+      <line x1="70" y1="0" x2="70" y2="280"/>
+      <line x1="140" y1="0" x2="140" y2="280"/>
+      <line x1="210" y1="0" x2="210" y2="280"/>
+    </g>
+    <!-- faixa amarela diagonal -->
+    <polygon points="0,250 280,210 280,225 0,265" fill="#F5C518"/>
+    <!-- numeração de seção -->
+    <text x="20" y="34" font-family="JetBrains Mono, monospace" font-size="10"
+      fill="#F5C518" letter-spacing="2">CONCRECIA / 01</text>
+
+    <!-- título grande -->
+    <text x="20" y="120" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="40" fill="#FFFFFF" letter-spacing="-1.5">CONCRETO</text>
+    <text x="20" y="158" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="40" fill="#F5C518" letter-spacing="-1.5">DE OBRA.</text>
+
+    <!-- linha técnica -->
+    <line x1="20" y1="178" x2="80" y2="178" stroke="#F5C518" stroke-width="2"/>
+    <text x="20" y="200" font-family="Inter, sans-serif" font-size="11"
+      fill="#E6EAF4">Logística que cumpre. Frota própria.</text>
+
+    <!-- logo canto -->
+    <g transform="translate(220 240)">
+      <use href="#cc-mark" width="36" height="36" color="#0A1F5C"/>
+    </g>
+
+    <text x="140" y="312" text-anchor="middle"
+      font-family="JetBrains Mono, monospace" font-size="9"
+      fill="#8C887D" letter-spacing="1.5">FEED — 1080×1080</text>
+  </g>
+
+  <!-- STORIES 9:16 -->
+  <g transform="translate(380 40)">
+    <rect width="160" height="280" fill="#F4F2ED" stroke="#D5D2C9"/>
+    <!-- padrão concreto sutil -->
+    <g fill="#D5D2C9" opacity="0.5">
+      <circle cx="30" cy="50" r="2"/>
+      <circle cx="120" cy="80" r="1.5"/>
+      <circle cx="60" cy="120" r="2.5"/>
+      <circle cx="140" cy="180" r="2"/>
+      <circle cx="40" cy="220" r="1.5"/>
+    </g>
+    <!-- barra superior amarela -->
+    <rect width="160" height="6" fill="#F5C518"/>
+    <text x="12" y="28" font-family="JetBrains Mono, monospace" font-size="8"
+      fill="#0A1F5C" letter-spacing="2">STORIES • 02</text>
+
+    <!-- título -->
+    <text x="12" y="120" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="22" fill="#0A1F5C" letter-spacing="-0.8">QUALIDADE</text>
+    <text x="12" y="146" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="22" fill="#0A1F5C" letter-spacing="-0.8">QUE A SUA</text>
+    <text x="12" y="172" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="22" fill="#0A1F5C" letter-spacing="-0.8">OBRA EXIGE.</text>
+
+    <line x1="12" y1="186" x2="50" y2="186" stroke="#F5C518" stroke-width="2"/>
+
+    <text x="12" y="206" font-family="Inter, sans-serif" font-size="9" fill="#5E5B53">
+      Solicite seu orçamento.
+    </text>
+
+    <!-- footer -->
+    <rect y="260" width="160" height="20" fill="#0A1F5C"/>
+    <text x="80" y="274" text-anchor="middle" font-family="JetBrains Mono, monospace"
+      font-size="8" fill="#F5C518" letter-spacing="2">@CONCRECIA</text>
+
+    <text x="80" y="312" text-anchor="middle"
+      font-family="JetBrains Mono, monospace" font-size="9"
+      fill="#8C887D" letter-spacing="1.5">STORIES — 1080×1920</text>
+  </g>
+
+  <!-- POST RETANGULAR (LinkedIn) -->
+  <g transform="translate(580 40)">
+    <rect width="180" height="280" fill="#050F2E"/>
+
+    <!-- bloco amarelo no canto -->
+    <rect width="180" height="60" fill="#F5C518"/>
+    <g transform="translate(14 14)">
+      <use href="#cc-mark" width="48" height="48" color="#0A1F5C"/>
+    </g>
+    <use href="#cc-wordmark" x="78" y="22" width="96" height="16" color="#0A1F5C"/>
+
+    <!-- conteúdo -->
+    <text x="14" y="98" font-family="JetBrains Mono, monospace" font-size="8"
+      fill="#F5C518" letter-spacing="2">15 ANOS DE OPERAÇÃO</text>
+
+    <text x="14" y="148" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="26" fill="#FFFFFF" letter-spacing="-1">CONSTRUINDO</text>
+    <text x="14" y="180" font-family="Archivo, Impact, Arial, sans-serif"
+      font-weight="900" font-size="26" fill="#F5C518" letter-spacing="-1">CONFIANÇA</text>
+
+    <line x1="14" y1="200" x2="60" y2="200" stroke="#F5C518" stroke-width="2"/>
+
+    <text x="14" y="222" font-family="Inter, sans-serif" font-size="10"
+      fill="#E6EAF4">Desde 2009.</text>
+
+    <text x="14" y="262" font-family="JetBrains Mono, monospace" font-size="7"
+      fill="#8C887D" letter-spacing="1.5">concrecia.com.br</text>
+
+    <text x="90" y="312" text-anchor="middle"
+      font-family="JetBrains Mono, monospace" font-size="9"
+      fill="#8C887D" letter-spacing="1.5">LINKEDIN — 1200×1500</text>
+  </g>
+</svg>

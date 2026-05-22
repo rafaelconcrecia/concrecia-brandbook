@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CONCRECIA — Brand Book / Identidade Visual</title>
+  <meta name="description" content="Brandbook oficial da CONCRECIA — concreteira com mais de 15 anos de operação em Ribeirão Preto e região. Identidade visual, cores, tipografia, aplicações e tom de comunicação." />
+  <meta name="author" content="CONCRECIA" />
+  <meta name="theme-color" content="#0A1F5C" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="styles/tokens.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/print.css" media="print" />
+</head>
+<body>
+
+<!-- ========================================================
+     SPRITE — Símbolo + Wordmark oficiais CONCRECIA (paths reais)
+     Referenciado via <use href="#cc-mark"> e <use href="#cc-wordmark">
+======================================================== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- SÍMBOLO OFICIAL — 3 Cs do wordmark empilhados em diagonal -->
+    <symbol id="cc-mark" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+      <g fill="currentColor">
+        <g transform="translate(70 70) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+        <g transform="translate(100 100) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+        <g transform="translate(130 130) scale(1.2) translate(-62.35 -433) translate(0 800) scale(0.1 -0.1)">
+          <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        </g>
+      </g>
+    </symbol>
+
+    <!-- WORDMARK OFICIAL -->
+    <symbol id="cc-wordmark" viewBox="40 400 727 125" preserveAspectRatio="xMidYMid meet">
+      <g transform="translate(0,800) scale(0.1,-0.1)" fill="currentColor" stroke="none">
+        <path d="M5940 3981 c-123 -18 -222 -73 -314 -172 -71 -77 -124 -173 -147 -269 -18 -70 -17 -259 0 -330 51 -209 217 -381 406 -421 84 -18 218 -16 295 5 76 20 194 72 212 94 9 10 12 49 10 125 -2 61 -4 113 -6 114 -2 2 -47 -19 -100 -46 -238 -122 -450 -75 -554 124 -25 46 -27 59 -27 175 0 117 2 128 27 177 104 196 318 245 554 128 40 -19 77 -35 83 -35 8 0 11 36 9 122 l-3 122 -39 22 c-101 57 -273 84 -406 65z"/>
+        <path d="M810 3961 c-174 -56 -310 -188 -373 -361 -82 -226 -24 -511 136 -674 97 -99 199 -143 353 -153 107 -7 212 13 314 58 102 47 100 44 100 180 l0 118 -115 -56 c-101 -48 -125 -56 -194 -60 -139 -10 -232 29 -310 127 -52 65 -75 141 -74 245 0 101 27 175 88 242 125 140 304 155 524 43 35 -17 66 -28 70 -25 3 4 5 56 5 116 -2 127 -6 134 -87 170 -90 38 -147 49 -267 48 -82 0 -131 -5 -170 -18z"/>
+        <path d="M1701 3665 c-137 -45 -242 -171 -276 -332 -20 -92 -19 -135 5 -222 27 -96 49 -137 109 -203 86 -95 202 -133 348 -116 84 10 148 42 214 108 90 89 129 194 129 345 0 125 -41 225 -132 321 -71 75 -147 107 -263 111 -58 1 -106 -3 -134 -12z m227 -184 c83 -42 125 -127 125 -251 0 -98 -13 -138 -68 -198 -47 -53 -107 -76 -183 -70 -82 6 -138 44 -177 123 -27 54 -30 69 -29 150 0 104 20 160 76 212 67 64 170 78 256 34z"/>
+        <path d="M3534 3661 c-109 -37 -191 -107 -244 -208 -69 -134 -66 -337 7 -463 41 -69 107 -134 170 -166 55 -28 64 -29 188 -29 129 0 131 0 200 35 l70 35 3 89 c2 69 0 87 -10 83 -7 -3 -49 -22 -93 -41 -101 -45 -182 -49 -260 -12 -97 45 -145 128 -145 251 0 121 45 197 143 244 89 43 176 37 289 -19 33 -16 64 -27 69 -24 5 3 9 41 9 84 0 73 -2 80 -26 99 -72 57 -264 79 -370 42z"/>
+        <path d="M2375 3648 c-3 -13 -4 -207 -3 -433 l3 -410 82 -3 83 -3 2 267 c2 191 6 268 15 271 6 2 80 -94 164 -214 84 -120 170 -242 191 -271 l39 -53 72 3 72 3 0 430 0 430 -82 3 -83 3 0 -256 c0 -239 -1 -256 -17 -253 -10 2 -89 102 -176 223 -228 318 -194 285 -282 285 -69 0 -75 -2 -80 -22z"/>
+        <path d="M4097 3664 c-4 -4 -7 -200 -7 -435 l0 -427 71 -4 c39 -2 77 1 85 5 11 6 14 41 14 171 0 181 3 191 59 180 64 -13 88 -51 171 -271 l31 -83 90 0 c55 0 89 4 89 10 0 15 -83 235 -110 292 -12 25 -30 54 -41 64 -26 23 -24 48 6 68 13 9 37 37 52 63 24 41 28 59 28 123 0 65 -4 82 -31 130 -22 38 -46 64 -79 85 l-48 30 -186 3 c-103 2 -190 0 -194 -4z m308 -158 c41 -17 55 -42 55 -96 0 -33 -6 -48 -30 -71 -28 -28 -34 -30 -97 -27 l-68 3 -3 89 c-2 49 -1 95 2 103 7 18 97 17 141 -1z"/>
+        <path d="M4812 3658 c-14 -14 -17 -824 -4 -846 7 -9 66 -12 263 -10 l254 3 0 70 0 70 -170 5 -170 5 0 105 0 105 157 3 c180 3 172 -1 166 98 l-3 49 -149 3 c-90 1 -155 7 -163 14 -13 11 -19 141 -7 172 5 14 30 16 170 16 l164 0 0 75 0 75 -248 0 c-180 0 -251 -3 -260 -12z"/>
+        <path d="M6585 3648 c-3 -7 -4 -204 -3 -438 l3 -425 80 0 80 0 3 438 2 437 -80 0 c-55 0 -82 -4 -85 -12z"/>
+        <path d="M7141 3638 c-9 -23 -223 -672 -259 -783 -11 -33 -18 -63 -15 -67 2 -5 40 -8 84 -8 90 0 88 -2 122 100 l22 65 161 3 c129 2 163 0 173 -12 6 -7 22 -45 35 -82 l23 -69 83 -3 c46 -2 87 1 91 5 6 7 -285 829 -305 862 -5 7 -45 11 -107 11 -94 0 -100 -1 -108 -22z m124 -218 c18 -29 103 -294 98 -306 -8 -21 -201 -20 -209 1 -3 8 5 49 19 92 14 43 35 111 47 151 20 69 31 84 45 62z"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ========================================================
+     NAVEGAÇÃO FLUTUANTE (Scroll-Spy)
+======================================================== -->
+<nav class="nav" aria-label="Índice do brandbook">
+  <a href="#sec-01" class="nav__item" data-target="sec-01"><span class="nav__dot"></span><span class="nav__num">01</span><span class="nav__name">Introdução</span></a>
+  <a href="#sec-02" class="nav__item" data-target="sec-02"><span class="nav__dot"></span><span class="nav__num">02</span><span class="nav__name">Conceito</span></a>
+  <a href="#sec-03" class="nav__item" data-target="sec-03"><span class="nav__dot"></span><span class="nav__num">03</span><span class="nav__name">Logo</span></a>
+  <a href="#sec-04" class="nav__item" data-target="sec-04"><span class="nav__dot"></span><span class="nav__num">04</span><span class="nav__name">Cores</span></a>
+  <a href="#sec-05" class="nav__item" data-target="sec-05"><span class="nav__dot"></span><span class="nav__num">05</span><span class="nav__name">Tipografia</span></a>
+  <a href="#sec-06" class="nav__item" data-target="sec-06"><span class="nav__dot"></span><span class="nav__num">06</span><span class="nav__name">Elementos</span></a>
+  <a href="#sec-07" class="nav__item" data-target="sec-07"><span class="nav__dot"></span><span class="nav__num">07</span><span class="nav__name">Fotografia</span></a>
+  <a href="#sec-08" class="nav__item" data-target="sec-08"><span class="nav__dot"></span><span class="nav__num">08</span><span class="nav__name">Aplicações</span></a>
+  <a href="#sec-09" class="nav__item" data-target="sec-09"><span class="nav__dot"></span><span class="nav__num">09</span><span class="nav__name">Comunicação</span></a>
+  <a href="#sec-10" class="nav__item" data-target="sec-10"><span class="nav__dot"></span><span class="nav__num">10</span><span class="nav__name">Encerramento</span></a>
+</nav>
+
+<!-- ========================================================
+     SHELL — RAIL + MAIN
+======================================================== -->
+<div class="shell">
+
+  <!-- RAIL LATERAL FIXA -->
+  <aside class="rail" aria-hidden="true">
+    <div class="rail__mark" style="color: #F5C518;">
+      <!-- mark inline -->
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <use href="#cc-mark" width="200" height="200"/>
+      </svg>
+    </div>
+    <div class="rail__vert">CONCRECIA — BRAND BOOK / 2026</div>
+    <div class="rail__index">v1.0</div>
+  </aside>
+
+  <main>
+
+    <!-- ========================================================
+         HERO / CAPA
+    ======================================================== -->
+    <section class="hero" id="capa">
+      <div class="hero__top">
+        <div class="hero__brand">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="color:#F5C518">
+            <use href="#cc-mark" width="200" height="200"/>
+          </svg>
+          <span>CONCRECIA</span>
+        </div>
+        <div></div>
+        <div class="hero__edition">
+          Documento Oficial · Edição 01 · 2026
+        </div>
+      </div>
+
+      <div class="hero__center">
+        <div class="hero__kicker">Brand Book / Identidade Visual</div>
+        <h1 class="hero__title">CONCRE<br/>CIA.</h1>
+        <p class="hero__sub">Construindo <em>confiança</em><br/>desde 2009.</p>
+      </div>
+
+      <div class="hero__bottom">
+        <div class="hero__meta"><span class="k">Cliente</span><span class="v">CONCRECIA</span></div>
+        <div class="hero__meta"><span class="k">Segmento</span><span class="v">Concreto Usinado</span></div>
+        <div class="hero__meta"><span class="k">Sede</span><span class="v">Ribeirão Preto · SP</span></div>
+        <div class="hero__meta"><span class="k">Versão</span><span class="v">1.0 — Mai/2026</span></div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         01 — INTRODUÇÃO
+    ======================================================== -->
+    <section class="section" id="sec-01">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">01 / 10 — INTRODUÇÃO</div>
+          <h2 class="section__title">Introdução.</h2>
+        </div>
+        <div class="section__counter">PÁG. 02</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent" style="margin-bottom: var(--s-4);">A NOVA ERA DO CONCRETO</p>
+          <p class="lead">A CONCRECIA é uma concreteira moderna, estruturada e orientada por logística precisa, controle técnico e compromisso com a obra do cliente.</p>
+        </div>
+        <div class="col-7">
+          <div class="intro-body">
+            <p>Em operação desde 2009, a CONCRECIA evoluiu de uma estrutura enxuta para uma operação industrial sólida, automatizada e tecnologicamente preparada para atender a complexidade da construção contemporânea — da grande obra à reforma residencial.</p>
+            <p>Nosso compromisso é claro: entregar concreto com a qualidade técnica exigida pelas normas mais rigorosas, na hora certa, com a previsibilidade que sua obra precisa para avançar.</p>
+            <p>Atendemos Ribeirão Preto e toda a região, sustentados por frota própria, controle rigoroso de processo e uma cultura operacional que valoriza pontualidade, segurança e transparência em cada metro cúbico.</p>
+            <p>Este documento formaliza nossa identidade visual e estabelece o padrão de comunicação da marca em todos os pontos de contato — da betoneira ao site, do uniforme ao cartão de visita.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top: var(--s-10);">
+        <div class="col-12">
+          <div class="grid">
+            <div class="col-4">
+              <div class="stat">
+                <div class="stat__v">15+</div>
+                <div class="stat__k">Anos de operação</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="stat">
+                <div class="stat__v">12</div>
+                <div class="stat__k">Municípios atendidos</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="stat">
+                <div class="stat__v">24/7</div>
+                <div class="stat__k">Operação programada</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top: var(--s-10);">
+        <div class="col-8">
+          <blockquote class="pullquote">
+            "Concreto não é commodity. É a base sobre a qual cada obra se sustenta — e cada minuto importa."
+            <cite>— Posicionamento institucional</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         02 — CONCEITO DA MARCA
+    ======================================================== -->
+    <section class="section section--dark" id="sec-02">
+      <header class="section__meta">
+        <div>
+          <div class="section__num" style="color:var(--c-yellow-500)">02 / 10 — CONCEITO</div>
+          <h2 class="section__title">Conceito.</h2>
+        </div>
+        <div class="section__counter" style="color:var(--c-stone-400)">PÁG. 04</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">ESSÊNCIA</p>
+          <p class="lead" style="color:white; margin-top:var(--s-4);">Força aplicada com precisão. Engenharia que se vê, logística que se confirma.</p>
+
+          <p class="body body--dim" style="margin-top: var(--s-6);">
+            A CONCRECIA não vende apenas concreto. Vende previsibilidade, organização e o resultado técnico que uma obra séria exige. A marca opera no cruzamento entre o peso bruto da indústria pesada e a precisão silenciosa da tecnologia moderna.
+          </p>
+        </div>
+
+        <div class="col-7">
+          <div class="archetype">
+            <p class="archetype__sub">ARQUÉTIPO</p>
+            <h3 class="archetype__name">O Construtor.</h3>
+            <p class="archetype__body">
+              Estrutura sobre estrutura. O Construtor não improvisa: planeja, mede, executa e entrega. A CONCRECIA personifica esse arquétipo no seu segmento — uma marca que constrói a base literal da cidade e oferece confiança como subproduto inevitável de sua disciplina operacional.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow eyebrow--inverse" style="margin-bottom: var(--s-5);">PERSONALIDADE</p>
+          <div class="chips">
+            <span class="chip">Robusta</span>
+            <span class="chip">Confiável</span>
+            <span class="chip">Técnica</span>
+            <span class="chip">Pontual</span>
+            <span class="chip">Organizada</span>
+            <span class="chip">Industrial</span>
+            <span class="chip">Moderna</span>
+            <span class="chip">Direta</span>
+            <span class="chip">Estruturada</span>
+            <span class="chip">Premium</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top: var(--s-10);">
+        <div class="col-4">
+          <div class="value-card">
+            <div class="value-card__num">01 / SOLIDEZ</div>
+            <h4 class="value-card__name">Estrutura</h4>
+            <p class="value-card__desc" style="color:var(--c-stone-300)">Tudo na operação tem método: do dosador à entrega. A marca reflete essa disciplina.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="value-card">
+            <div class="value-card__num">02 / PRECISÃO</div>
+            <h4 class="value-card__name">Engenharia</h4>
+            <p class="value-card__desc" style="color:var(--c-stone-300)">Concreto certo, no traço certo, na hora certa. Sem aproximações comerciais.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="value-card">
+            <div class="value-card__num">03 / CONFIANÇA</div>
+            <h4 class="value-card__name">Palavra</h4>
+            <p class="value-card__desc" style="color:var(--c-stone-300)">O que foi combinado é o que chega. Sem letras miúdas, sem surpresas no caminho.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         03 — LOGO
+    ======================================================== -->
+    <section class="section" id="sec-03">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">03 / 10 — LOGO</div>
+          <h2 class="section__title">Logo.</h2>
+        </div>
+        <div class="section__counter">PÁG. 06</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">SÍMBOLO</p>
+          <p class="lead" style="margin-top: var(--s-4);">Três Cs em empilhamento diagonal. Construção sobre construção. Progressão e movimento.</p>
+          <p class="body body--dim" style="margin-top: var(--s-5);">O símbolo expressa a essência da marca: solidez que se acumula, etapas que se sobrepõem para formar estrutura. A diagonal sugere avanço — a obra que progride —, enquanto a forma do C cita simultaneamente <strong>Concrecia</strong>, <strong>Concreto</strong> e o ciclo contínuo da operação.</p>
+        </div>
+
+        <div class="col-7">
+          <div class="logo-stage logo-construction">
+            <!-- LOGO grande, em fundo claro -->
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" style="width: 80%;">
+              <use href="#cc-mark" x="300" y="10" width="200" height="200" color="#F5C518"/>
+              <use href="#cc-wordmark" x="100" y="230" width="600" height="103" color="#0A1F5C"/>
+            </svg>
+            <span class="logo-stage__label">VERSÃO PRINCIPAL · COLORIDA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VERSÕES DA LOGO -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">VERSÕES OFICIAIS</p>
+        </div>
+
+        <div class="col-6">
+          <div class="logo-stage logo-stage--dark">
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+              <use href="#cc-mark" x="300" y="10" width="200" height="200" color="#F5C518"/>
+              <use href="#cc-wordmark" x="100" y="230" width="600" height="103" color="#FFFFFF"/>
+            </svg>
+            <span class="logo-stage__label">FUNDO ESCURO · NEGATIVA</span>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="logo-stage logo-stage--yellow">
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+              <use href="#cc-mark" x="300" y="10" width="200" height="200" color="#0A1F5C"/>
+              <use href="#cc-wordmark" x="100" y="230" width="600" height="103" color="#0A1F5C"/>
+            </svg>
+            <span class="logo-stage__label" style="color: var(--c-navy-900);">SOBRE AMARELO · CONTRASTE</span>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="logo-stage">
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+              <use href="#cc-mark" x="300" y="10" width="200" height="200" color="#0A1F5C"/>
+              <use href="#cc-wordmark" x="100" y="230" width="600" height="103" color="#0A1F5C"/>
+            </svg>
+            <span class="logo-stage__label">MONOCROMÁTICA · AZUL</span>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="logo-stage" style="background: var(--c-stone-100);">
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+              <use href="#cc-mark" x="300" y="10" width="200" height="200" color="#0E0E0D"/>
+              <use href="#cc-wordmark" x="100" y="230" width="600" height="103" color="#0E0E0D"/>
+            </svg>
+            <span class="logo-stage__label">MONOCROMÁTICA · PRETO</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ÁREA DE PROTEÇÃO + TAMANHO MÍNIMO -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-6">
+          <p class="eyebrow" style="margin-bottom: var(--s-4);">ÁREA DE PROTEÇÃO</p>
+          <p class="body body--dim" style="margin-bottom: var(--s-5);">Distância mínima ao redor da logo equivale à altura de um "C" do símbolo. Nada deve invadir esse espaço — nem texto, nem outras marcas.</p>
+          <div class="logo-clearspace">
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+              <use href="#cc-mark" x="300" y="10" width="200" height="200" color="#F5C518"/>
+              <use href="#cc-wordmark" x="100" y="230" width="600" height="103" color="#0A1F5C"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <p class="eyebrow" style="margin-bottom: var(--s-4);">TAMANHO MÍNIMO</p>
+          <p class="body body--dim" style="margin-bottom: var(--s-5);">Para garantir legibilidade, a logo nunca deve ser reproduzida abaixo dos seguintes limites:</p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-5);">
+            <div style="background: var(--c-paper); border: 1px solid var(--rule); padding: var(--s-5);">
+              <div class="label" style="margin-bottom: var(--s-3);">DIGITAL</div>
+              <div class="mono" style="font-size: var(--fs-22); color: var(--primary); font-weight: 700;">120 px</div>
+              <div class="label" style="margin-top: var(--s-2);">largura mínima</div>
+            </div>
+            <div style="background: var(--c-paper); border: 1px solid var(--rule); padding: var(--s-5);">
+              <div class="label" style="margin-bottom: var(--s-3);">IMPRESSO</div>
+              <div class="mono" style="font-size: var(--fs-22); color: var(--primary); font-weight: 700;">25 mm</div>
+              <div class="label" style="margin-top: var(--s-2);">largura mínima</div>
+            </div>
+          </div>
+
+          <div style="margin-top: var(--s-5); padding: var(--s-5); background: var(--c-navy-900); color: white;">
+            <div class="label" style="color: var(--c-yellow-500); margin-bottom: var(--s-3);">REGRA</div>
+            <p style="font-family: var(--ff-display); font-size: var(--fs-22); line-height: 1.25; letter-spacing: var(--ls-display);">Em superfícies grandes (caminhão, fachada), a logo deve ocupar ao menos 1/3 da área visualmente ativa.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- USOS INCORRETOS -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-3); color: #D72638;">USOS INCORRETOS</p>
+          <p class="body body--dim" style="margin-bottom: var(--s-6); max-width: 60ch;">A integridade da marca depende da reprodução fiel. As manipulações abaixo são proibidas em qualquer aplicação:</p>
+
+          <div class="dont-grid">
+            <div class="dont">
+              <svg viewBox="0 0 200 100"><use href="#cc-mark" x="20" y="20" width="160" height="60" color="#F5C518" preserveAspectRatio="none"/></svg>
+              <span class="dont__label">NÃO DISTORÇA</span>
+            </div>
+            <div class="dont">
+              <svg viewBox="0 0 200 100"><use href="#cc-mark" x="50" y="0" width="100" height="100" color="#7B9DD9"/></svg>
+              <span class="dont__label">NÃO RECOLORA</span>
+            </div>
+            <div class="dont">
+              <svg viewBox="0 0 200 100"><use href="#cc-mark" x="50" y="0" width="100" height="100" color="#F5C518" transform="rotate(25 100 50)"/></svg>
+              <span class="dont__label">NÃO ROTACIONE</span>
+            </div>
+            <div class="dont">
+              <svg viewBox="0 0 200 100"><defs><filter id="blur"><feGaussianBlur stdDeviation="3"/></filter></defs><use href="#cc-mark" x="50" y="0" width="100" height="100" color="#F5C518" filter="url(#blur)"/></svg>
+              <span class="dont__label">NÃO APLIQUE EFEITOS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         04 — PALETA DE CORES
+    ======================================================== -->
+    <section class="section" id="sec-04">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">04 / 10 — CORES</div>
+          <h2 class="section__title">Paleta.</h2>
+        </div>
+        <div class="section__counter">PÁG. 10</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">SISTEMA CROMÁTICO</p>
+          <p class="lead" style="margin-top: var(--s-4);">Azul profundo para autoridade. Amarelo industrial para atenção. Cinzas técnicos para estrutura.</p>
+        </div>
+        <div class="col-7">
+          <p class="body body--dim">A paleta CONCRECIA equilibra o peso institucional do azul-marinho com a urgência operacional do amarelo de sinalização — uma combinação reconhecidamente associada a engenharia, logística e infraestrutura pesada. Os neutros completam o sistema com tons inspirados em concreto curado e aço escovado.</p>
+        </div>
+      </div>
+
+      <!-- PRIMÁRIAS -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">CORES PRIMÁRIAS</p>
+        </div>
+
+        <div class="col-6">
+          <div class="swatch swatch--navy">
+            <div>
+              <div class="swatch__num">P-01</div>
+              <h4 class="swatch__name">Concrecia Navy</h4>
+              <div class="swatch__role">Primária · Institucional</div>
+            </div>
+            <dl class="swatch__specs">
+              <dt>HEX</dt><dd>#0A1F5C</dd>
+              <dt>RGB</dt><dd>10 · 31 · 92</dd>
+              <dt>CMYK</dt><dd>89 · 66 · 0 · 64</dd>
+              <dt>PANTONE</dt><dd>2766 C</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="swatch swatch--yellow">
+            <div>
+              <div class="swatch__num">P-02</div>
+              <h4 class="swatch__name">Concrecia Yellow</h4>
+              <div class="swatch__role">Primária · Operacional</div>
+            </div>
+            <dl class="swatch__specs">
+              <dt>HEX</dt><dd>#F5C518</dd>
+              <dt>RGB</dt><dd>245 · 197 · 24</dd>
+              <dt>CMYK</dt><dd>0 · 20 · 90 · 4</dd>
+              <dt>PANTONE</dt><dd>116 C</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECUNDÁRIAS -->
+      <div class="grid" style="margin-top: var(--s-7);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">CORES DE APOIO</p>
+        </div>
+
+        <div class="col-4">
+          <div class="swatch swatch--deep">
+            <div>
+              <div class="swatch__num">S-01</div>
+              <h4 class="swatch__name">Deep</h4>
+              <div class="swatch__role">Fundo escuro / Backdrops</div>
+            </div>
+            <dl class="swatch__specs">
+              <dt>HEX</dt><dd>#050F2E</dd>
+              <dt>RGB</dt><dd>5 · 15 · 46</dd>
+              <dt>CMYK</dt><dd>96 · 88 · 38 · 60</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="swatch swatch--stone">
+            <div>
+              <div class="swatch__num">S-02</div>
+              <h4 class="swatch__name">Steel</h4>
+              <div class="swatch__role">Texto / Detalhe técnico</div>
+            </div>
+            <dl class="swatch__specs">
+              <dt>HEX</dt><dd>#232220</dd>
+              <dt>RGB</dt><dd>35 · 34 · 32</dd>
+              <dt>CMYK</dt><dd>0 · 3 · 9 · 86</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="swatch swatch--bone">
+            <div>
+              <div class="swatch__num">S-03</div>
+              <h4 class="swatch__name">Bone</h4>
+              <div class="swatch__role">Fundo claro · Papelaria</div>
+            </div>
+            <dl class="swatch__specs">
+              <dt>HEX</dt><dd>#F4F2ED</dd>
+              <dt>RGB</dt><dd>244 · 242 · 237</dd>
+              <dt>CMYK</dt><dd>0 · 1 · 3 · 4</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- ESCALA DE CINZAS -->
+      <div class="grid" style="margin-top: var(--s-7);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">ESCALA DE NEUTROS · STONE</p>
+          <div class="scale">
+            <div class="scale__step" style="background:#FAFAF8;color:#0E0E0D;">100 <span>#FAFAF8</span></div>
+            <div class="scale__step" style="background:#EAE8E2;color:#0E0E0D;">200 <span>#EAE8E2</span></div>
+            <div class="scale__step" style="background:#D5D2C9;color:#0E0E0D;">300 <span>#D5D2C9</span></div>
+            <div class="scale__step" style="background:#8C887D;color:white;">400 <span>#8C887D</span></div>
+            <div class="scale__step" style="background:#5E5B53;color:white;">500 <span>#5E5B53</span></div>
+            <div class="scale__step" style="background:#3D3B36;color:white;">600 <span>#3D3B36</span></div>
+            <div class="scale__step" style="background:#0E0E0D;color:white;">900 <span>#0E0E0D</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PSICOLOGIA -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-4">
+          <p class="eyebrow" style="color: var(--primary); margin-bottom: var(--s-3);">AZUL</p>
+          <p class="lead" style="font-size: var(--fs-22);">Autoridade. Confiança. Estabilidade institucional.</p>
+          <p class="body body--dim" style="margin-top: var(--s-4); font-size: var(--fs-16);">Em mercados B2B de infraestrutura, o azul-marinho transmite seriedade técnica e segurança contratual — atributos críticos para uma decisão de compra de concreto.</p>
+        </div>
+        <div class="col-4">
+          <p class="eyebrow" style="color: var(--c-yellow-600); margin-bottom: var(--s-3);">AMARELO</p>
+          <p class="lead" style="font-size: var(--fs-22);">Energia. Atenção. Presença operacional.</p>
+          <p class="body body--dim" style="margin-top: var(--s-4); font-size: var(--fs-16);">Universal no contexto industrial — sinaliza máquina em operação, segurança e movimento. É o pulso da marca, usado com precisão e nunca diluído.</p>
+        </div>
+        <div class="col-4">
+          <p class="eyebrow" style="color: var(--fg-dim); margin-bottom: var(--s-3);">NEUTROS</p>
+          <p class="lead" style="font-size: var(--fs-22);">Concreto. Estrutura. Espaço técnico.</p>
+          <p class="body body--dim" style="margin-top: var(--s-4); font-size: var(--fs-16);">A escala stone evoca os próprios materiais da construção: cimento curado, agregado limpo, aço escovado. Sustenta a composição sem competir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         05 — TIPOGRAFIA
+    ======================================================== -->
+    <section class="section section--dark" id="sec-05">
+      <header class="section__meta">
+        <div>
+          <div class="section__num" style="color:var(--c-yellow-500)">05 / 10 — TIPOGRAFIA</div>
+          <h2 class="section__title">Tipografia.</h2>
+        </div>
+        <div class="section__counter" style="color:var(--c-stone-400)">PÁG. 14</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">SISTEMA TIPOGRÁFICO</p>
+          <p class="lead" style="color:white; margin-top: var(--s-4);">Duas famílias. Uma para impacto, uma para clareza. Ambas modernas, ambas técnicas.</p>
+        </div>
+        <div class="col-7">
+          <p class="body" style="color: var(--c-stone-200);">A combinação <strong style="color:white;">Archivo + Inter</strong> sustenta toda a comunicação da CONCRECIA — da fachada ao orçamento digital. Archivo entrega presença industrial moderna nos títulos; Inter garante legibilidade impecável em textos técnicos, contratos e interfaces. JetBrains Mono complementa o sistema em contextos de dados, códigos e specs.</p>
+        </div>
+      </div>
+
+      <!-- SPECIMEN DISPLAY -->
+      <div class="type-specimen" style="margin-top: var(--s-9); background: #050F2E; border: 1px solid rgba(255,255,255,0.06);">
+        <div class="type-specimen__label">DISPLAY / TÍTULOS</div>
+        <div class="type-specimen__big">ABCDEFG<br/>HIJKLMN</div>
+        <div class="type-specimen__name">Archivo Black</div>
+        <div class="type-specimen__meta">
+          <span>SANS-SERIF GROTESCO</span>
+          <span>9 PESOS</span>
+          <span>OPEN SOURCE · GOOGLE FONTS</span>
+        </div>
+      </div>
+
+      <!-- SPECIMEN BODY -->
+      <div class="type-specimen" style="margin-top: var(--s-5); background: #050F2E;">
+        <div class="type-specimen__label">CORPO / INTERFACE / DOCUMENTOS</div>
+        <div class="type-specimen__big" style="font-family: var(--ff-body); font-weight: 600; letter-spacing: -0.04em;">Aa Bb Cc<br/>123 456</div>
+        <div class="type-specimen__name" style="font-family: var(--ff-body); font-weight: 500;">Inter</div>
+        <div class="type-specimen__meta">
+          <span>SANS-SERIF HUMANISTA</span>
+          <span>9 PESOS</span>
+          <span>OPEN SOURCE · GOOGLE FONTS</span>
+        </div>
+      </div>
+
+      <!-- HIERARQUIA DE ESCALA -->
+      <div class="grid" style="margin-top: var(--s-9); background: white; padding: var(--s-7); margin-left: calc(-1 * var(--s-8)); margin-right: calc(-1 * var(--s-8));">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-6); color: var(--fg-dim);">HIERARQUIA TIPOGRÁFICA</p>
+          <div class="type-scale">
+            <div class="type-row">
+              <span class="type-row__token">H1 / 96</span>
+              <span class="type-row__sample" style="font-family: var(--ff-display); font-size: 64px; font-weight: 900; line-height: 1;">Concrecia</span>
+              <span class="type-row__spec">Archivo Black · 96/100 · -0.03em</span>
+            </div>
+            <div class="type-row">
+              <span class="type-row__token">H2 / 64</span>
+              <span class="type-row__sample" style="font-family: var(--ff-display); font-size: 48px; font-weight: 800; line-height: 1.05;">Construindo confiança</span>
+              <span class="type-row__spec">Archivo 800 · 64/72 · -0.02em</span>
+            </div>
+            <div class="type-row">
+              <span class="type-row__token">H3 / 48</span>
+              <span class="type-row__sample" style="font-family: var(--ff-display); font-size: 36px; font-weight: 700; line-height: 1.1;">Engenharia que cumpre.</span>
+              <span class="type-row__spec">Archivo 700 · 48/52 · -0.02em</span>
+            </div>
+            <div class="type-row">
+              <span class="type-row__token">H4 / 28</span>
+              <span class="type-row__sample" style="font-family: var(--ff-display); font-size: 24px; font-weight: 600;">Subtítulo institucional</span>
+              <span class="type-row__spec">Archivo 600 · 28/34</span>
+            </div>
+            <div class="type-row">
+              <span class="type-row__token">BODY / 18</span>
+              <span class="type-row__sample" style="font-family: var(--ff-body); font-size: 18px;">Corpo de texto principal — relatórios, documentos institucionais e materiais técnicos.</span>
+              <span class="type-row__spec">Inter 400 · 18/30</span>
+            </div>
+            <div class="type-row">
+              <span class="type-row__token">SMALL / 14</span>
+              <span class="type-row__sample" style="font-family: var(--ff-body); font-size: 14px;">Captions, notas de rodapé, legendas técnicas e dados secundários.</span>
+              <span class="type-row__spec">Inter 400 · 14/22</span>
+            </div>
+            <div class="type-row">
+              <span class="type-row__token">MONO / 12</span>
+              <span class="type-row__sample" style="font-family: var(--ff-mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">LABEL TÉCNICO · 00.000.000/0001 · CONCRECIA-CCC-001</span>
+              <span class="type-row__spec">JetBrains Mono 500 · +tracking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PESOS -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-6">
+          <p class="eyebrow" style="margin-bottom: var(--s-4); color:white;">PESOS — ARCHIVO</p>
+          <div class="weight-row"><span class="weight-row__token">LIGHT</span><span class="weight-row__sample" style="font-weight:300;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">300</span></div>
+          <div class="weight-row"><span class="weight-row__token">REGULAR</span><span class="weight-row__sample" style="font-weight:400;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">400</span></div>
+          <div class="weight-row"><span class="weight-row__token">MEDIUM</span><span class="weight-row__sample" style="font-weight:500;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">500</span></div>
+          <div class="weight-row"><span class="weight-row__token">SEMIBOLD</span><span class="weight-row__sample" style="font-weight:600;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">600</span></div>
+          <div class="weight-row"><span class="weight-row__token">BOLD</span><span class="weight-row__sample" style="font-weight:700;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">700</span></div>
+          <div class="weight-row"><span class="weight-row__token">BLACK</span><span class="weight-row__sample" style="font-weight:900;color:var(--c-yellow-500);">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">900</span></div>
+        </div>
+
+        <div class="col-6">
+          <p class="eyebrow" style="margin-bottom: var(--s-4); color:white;">PESOS — INTER</p>
+          <div class="weight-row"><span class="weight-row__token">LIGHT</span><span class="weight-row__sample" style="font-family:var(--ff-body);font-weight:300;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">300</span></div>
+          <div class="weight-row"><span class="weight-row__token">REGULAR</span><span class="weight-row__sample" style="font-family:var(--ff-body);font-weight:400;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">400</span></div>
+          <div class="weight-row"><span class="weight-row__token">MEDIUM</span><span class="weight-row__sample" style="font-family:var(--ff-body);font-weight:500;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">500</span></div>
+          <div class="weight-row"><span class="weight-row__token">SEMIBOLD</span><span class="weight-row__sample" style="font-family:var(--ff-body);font-weight:600;color:white;">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">600</span></div>
+          <div class="weight-row"><span class="weight-row__token">BOLD</span><span class="weight-row__sample" style="font-family:var(--ff-body);font-weight:700;color:var(--c-yellow-500);">Concrecia</span><span class="weight-row__spec" style="color:#B5B1A6;">700</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         06 — ELEMENTOS VISUAIS
+    ======================================================== -->
+    <section class="section" id="sec-06">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">06 / 10 — ELEMENTOS</div>
+          <h2 class="section__title">Elementos.</h2>
+        </div>
+        <div class="section__counter">PÁG. 18</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">LINGUAGEM GRÁFICA</p>
+          <p class="lead" style="margin-top: var(--s-4);">Um sistema visual de apoio que reforça a estética industrial e amplia a marca em qualquer contexto.</p>
+        </div>
+        <div class="col-7">
+          <p class="body body--dim">Os elementos complementares formam o "vocabulário visual" da CONCRECIA — grids técnicos, linhas de medição, padrões diagonais e texturas de concreto. Eles não competem com a logo: enquadram, sinalizam e organizam. Devem ser aplicados com a mesma economia de uma boa engenharia: presentes só onde necessários.</p>
+        </div>
+      </div>
+
+      <!-- PADRÕES -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">BIBLIOTECA DE PADRÕES</p>
+        </div>
+
+        <div class="col-6">
+          <div class="pattern-tile pat-grid">
+            <span class="pattern-tile__label">GRID TÉCNICO · 24px</span>
+          </div>
+          <p class="body body--dim" style="margin-top: var(--s-3); font-size: var(--fs-14);">Base estrutural de toda diagramação. Sutil em fundos, ativo quando precisa transmitir precisão.</p>
+        </div>
+
+        <div class="col-6">
+          <div class="pattern-tile pat-diagonal">
+            <span class="pattern-tile__label">SAFETY STRIPES · 45°</span>
+          </div>
+          <p class="body body--dim" style="margin-top: var(--s-3); font-size: var(--fs-14);">Sinalização de borda inspirada em fitas de obra. Para alertas, headers e divisores fortes.</p>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="pattern-tile pat-concrete">
+            <span class="pattern-tile__label">TEXTURA CONCRETO</span>
+          </div>
+          <p class="body body--dim" style="margin-top: var(--s-3); font-size: var(--fs-14);">Granulometria sutil para fundos institucionais. Materializa a marca sem peso visual.</p>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="pattern-tile pat-ticks">
+            <span class="pattern-tile__label">RÉGUA TÉCNICA</span>
+          </div>
+          <p class="body body--dim" style="margin-top: var(--s-3); font-size: var(--fs-14);">Marcadores de medição como detalhe de borda em documentos técnicos e relatórios.</p>
+        </div>
+      </div>
+
+      <!-- COMPOSIÇÃO -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-6">
+          <p class="eyebrow" style="margin-bottom: var(--s-4);">REGRAS DE COMPOSIÇÃO</p>
+          <ul style="display: grid; gap: var(--s-4);">
+            <li style="display: grid; grid-template-columns: 32px 1fr; gap: var(--s-4); padding-bottom: var(--s-4); border-bottom: 1px solid var(--rule);">
+              <span class="mono" style="color: var(--accent); font-weight: 700;">01</span>
+              <span class="body">Numeração de seção sempre no canto superior esquerdo, em mono, com tracking aberto.</span>
+            </li>
+            <li style="display: grid; grid-template-columns: 32px 1fr; gap: var(--s-4); padding-bottom: var(--s-4); border-bottom: 1px solid var(--rule);">
+              <span class="mono" style="color: var(--accent); font-weight: 700;">02</span>
+              <span class="body">Filete amarelo de 1px–4px como assinatura de canto, nunca centralizado nem decorativo.</span>
+            </li>
+            <li style="display: grid; grid-template-columns: 32px 1fr; gap: var(--s-4); padding-bottom: var(--s-4); border-bottom: 1px solid var(--rule);">
+              <span class="mono" style="color: var(--accent); font-weight: 700;">03</span>
+              <span class="body">Espaço negativo é elemento: nunca preencha por preencher. A composição respira.</span>
+            </li>
+            <li style="display: grid; grid-template-columns: 32px 1fr; gap: var(--s-4); padding-bottom: var(--s-4); border-bottom: 1px solid var(--rule);">
+              <span class="mono" style="color: var(--accent); font-weight: 700;">04</span>
+              <span class="body">Hierarquia tipográfica é a estrutura: tamanho carrega importância, peso carrega ênfase.</span>
+            </li>
+            <li style="display: grid; grid-template-columns: 32px 1fr; gap: var(--s-4);">
+              <span class="mono" style="color: var(--accent); font-weight: 700;">05</span>
+              <span class="body">Amarelo é acento, não cor de fundo dominante. Use-o como sinalização, não como decoração.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6">
+          <p class="eyebrow" style="margin-bottom: var(--s-4);">APLICAÇÃO POR CANAL</p>
+          <div style="display: grid; gap: var(--s-3);">
+            <div style="display: grid; grid-template-columns: 1fr auto; padding: var(--s-4); border: 1px solid var(--rule); background: var(--c-paper);">
+              <span class="body" style="font-weight: 500;">Frota & Caminhão</span>
+              <span class="mono label">SAFETY STRIPES + LOGO</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr auto; padding: var(--s-4); border: 1px solid var(--rule); background: var(--c-paper);">
+              <span class="body" style="font-weight: 500;">Uniforme & EPI</span>
+              <span class="mono label">LOGO MONOCROMA</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr auto; padding: var(--s-4); border: 1px solid var(--rule); background: var(--c-paper);">
+              <span class="body" style="font-weight: 500;">Fachada & Sinalização</span>
+              <span class="mono label">LOGO + GRID TÉCNICO</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr auto; padding: var(--s-4); border: 1px solid var(--rule); background: var(--c-paper);">
+              <span class="body" style="font-weight: 500;">Site & Digital</span>
+              <span class="mono label">RÉGUA + GRID + TEXTURA</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr auto; padding: var(--s-4); border: 1px solid var(--rule); background: var(--c-paper);">
+              <span class="body" style="font-weight: 500;">Documentos Técnicos</span>
+              <span class="mono label">RÉGUA + GRID</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr auto; padding: var(--s-4); border: 1px solid var(--rule); background: var(--c-paper);">
+              <span class="body" style="font-weight: 500;">Redes Sociais</span>
+              <span class="mono label">TODOS — COMPOSIÇÃO LIVRE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         07 — DIREÇÃO FOTOGRÁFICA
+    ======================================================== -->
+    <section class="section" id="sec-07">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">07 / 10 — FOTOGRAFIA</div>
+          <h2 class="section__title">Fotografia.</h2>
+        </div>
+        <div class="section__counter">PÁG. 22</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">DIREÇÃO DE IMAGEM</p>
+          <p class="lead" style="margin-top: var(--s-4);">Operação real, escala visível, luz dramática. Sem encenação, sem clichês de banco de imagens.</p>
+        </div>
+        <div class="col-7">
+          <p class="body body--dim">A imagem da CONCRECIA deve documentar a operação com olhar editorial: linhas industriais limpas, escala humana presente, contraste forte entre o peso da máquina e a precisão do ato. Tratamento cinematográfico — não fotografia institucional genérica.</p>
+        </div>
+      </div>
+
+      <!-- MOOD FRAMES -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">REPERTÓRIO VISUAL</p>
+        </div>
+
+        <div class="col-6">
+          <div class="photo-frame photo-frame__brackets">
+            <img src="assets/01-bomba-residencial.jpg" alt="Caminhão betoneira com bomba lança em obra residencial de dois andares" loading="lazy"/>
+            <span class="photo-frame__num">REPERTÓRIO 01</span>
+          </div>
+          <p class="body body--dim" style="margin-top: var(--s-3); font-size: var(--fs-14);">Vista aérea com bomba lança em ação. Demonstra escala da operação, organização do canteiro e logística da entrega — sem encenação.</p>
+        </div>
+
+        <div class="col-6">
+          <div class="photo-frame photo-frame__brackets">
+            <img src="assets/02-betoneira-lateral.jpg" alt="Caminhão betoneira CONCRECIA em vista lateral, céu azul" loading="lazy"/>
+            <span class="photo-frame__num">REPERTÓRIO 02</span>
+          </div>
+          <p class="body body--dim" style="margin-top: var(--s-3); font-size: var(--fs-14);">Retrato do equipamento. Plano lateral, frota identificada, contraste forte céu/máquina. Linha industrial limpa, sem floreio.</p>
+        </div>
+
+        <div class="col-4" style="margin-top: var(--s-5);">
+          <div class="photo-frame photo-frame__brackets" style="aspect-ratio: 1/1;">
+            <img src="assets/03-aerea-fundacao.jpg" alt="Vista aérea de fundação em construção com dois caminhões betoneira" loading="lazy"/>
+            <span class="photo-frame__num">REPERTÓRIO 03</span>
+          </div>
+        </div>
+        <div class="col-4" style="margin-top: var(--s-5);">
+          <div class="photo-frame photo-frame__brackets" style="aspect-ratio: 1/1;">
+            <img src="assets/04-aerea-bomba.jpg" alt="Vista aérea de obra com bomba estendida e caminhão betoneira" loading="lazy"/>
+            <span class="photo-frame__num">REPERTÓRIO 04</span>
+          </div>
+        </div>
+        <div class="col-4" style="margin-top: var(--s-5);">
+          <div class="photo-frame photo-frame__brackets" style="aspect-ratio: 1/1;">
+            <img src="assets/05-betoneira-pateo.jpg" alt="Caminhão betoneira CONCRECIA em pátio com céu azul claro" loading="lazy"/>
+            <span class="photo-frame__num">REPERTÓRIO 05</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIRETRIZES TÉCNICAS -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-4">
+          <p class="eyebrow" style="margin-bottom: var(--s-3); color: var(--accent);">ILUMINAÇÃO</p>
+          <p class="body" style="font-weight: 500;">Luz natural lateral ou dramática. Hora dourada e contraluz preferenciais. Evite flash direto e iluminação plana de estúdio.</p>
+        </div>
+        <div class="col-4">
+          <p class="eyebrow" style="margin-bottom: var(--s-3); color: var(--accent);">ENQUADRAMENTO</p>
+          <p class="body" style="font-weight: 500;">Composição com regra dos terços. Linhas industriais como guia. Inclua escala humana sempre que possível, sem posar.</p>
+        </div>
+        <div class="col-4">
+          <p class="eyebrow" style="margin-bottom: var(--s-3); color: var(--accent);">TRATAMENTO</p>
+          <p class="body" style="font-weight: 500;">Contraste alto, saturação controlada, sombras profundas. Tonalidade ligeiramente fria nos azuis, quente nos amarelos.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: var(--s-7); padding: var(--s-6); background: var(--c-navy-900); color: white;">
+        <p class="eyebrow eyebrow--accent" style="margin-bottom: var(--s-3);">EVITAR</p>
+        <p class="lead" style="color: white; font-size: var(--fs-22);">Stock photos genéricas · Pessoas sorrindo posadas · Cores ultra-saturadas tipo HDR · Layouts com handshakes corporativos · Logo flutuante em céu azul</p>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         08 — APLICAÇÕES
+    ======================================================== -->
+    <section class="section" id="sec-08">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">08 / 10 — APLICAÇÕES</div>
+          <h2 class="section__title">Aplicações.</h2>
+        </div>
+        <div class="section__counter">PÁG. 26</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">A MARCA EM USO</p>
+          <p class="lead" style="margin-top: var(--s-4);">Como a CONCRECIA se materializa nos pontos de contato — do caminhão na rua ao email no inbox.</p>
+        </div>
+        <div class="col-7">
+          <p class="body body--dim">Cada aplicação foi projetada para reforçar a percepção de operação organizada e premium. Os mockups abaixo servem como referência canônica: proporção da logo, posicionamento dos elementos secundários e uso disciplinado das cores primárias.</p>
+        </div>
+      </div>
+
+      <!-- MOCKUPS GRID -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <div class="app-card">
+            <div class="app-card__visual" style="aspect-ratio: 21/9; background: linear-gradient(180deg, #EAE8E2 0%, #D5D2C9 100%);">
+              <img src="assets/mockups/truck.svg" alt="Aplicação caminhão betoneira" />
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Caminhão Betoneira</div>
+                <div class="app-card__sub">Frota operacional · Logo central no tambor</div>
+              </div>
+              <div class="app-card__num">APP-01</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="app-card">
+            <div class="app-card__visual">
+              <img src="assets/mockups/card.svg" alt="Aplicação cartão de visita" />
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Cartão de Visita</div>
+                <div class="app-card__sub">85 × 55 mm · Frente azul + verso bone</div>
+              </div>
+              <div class="app-card__num">APP-02</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="app-card">
+            <div class="app-card__visual">
+              <img src="assets/mockups/uniform.svg" alt="Aplicação uniforme e capacete" />
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Uniforme + Capacete</div>
+                <div class="app-card__sub">Camisa azul · Capacete amarelo CA</div>
+              </div>
+              <div class="app-card__num">APP-03</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12" style="margin-top: var(--s-5);">
+          <div class="app-card">
+            <div class="app-card__visual" style="aspect-ratio: 21/9; background: linear-gradient(180deg, #E6EAF4 0%, #B5B1A6 100%);">
+              <img src="assets/mockups/facade.svg" alt="Aplicação fachada institucional" />
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Fachada Institucional</div>
+                <div class="app-card__sub">Sede · Logo + totem lateral azul</div>
+              </div>
+              <div class="app-card__num">APP-04</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12" style="margin-top: var(--s-5);">
+          <div class="app-card">
+            <div class="app-card__visual">
+              <img src="assets/mockups/signature.svg" alt="Aplicação assinatura de email" />
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Assinatura de Email</div>
+                <div class="app-card__sub">Padrão corporativo · Logo + filete vertical amarelo</div>
+              </div>
+              <div class="app-card__num">APP-05</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12" style="margin-top: var(--s-5);">
+          <div class="app-card">
+            <div class="app-card__visual">
+              <img src="assets/mockups/social.svg" alt="Aplicação redes sociais" />
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Redes Sociais</div>
+                <div class="app-card__sub">Feed 1:1 · Stories 9:16 · LinkedIn 4:5</div>
+              </div>
+              <div class="app-card__num">APP-06</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ORÇAMENTO — Spec layout -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">DOCUMENTO COMERCIAL · ORÇAMENTO</p>
+          <div class="app-card">
+            <div class="app-card__visual" style="aspect-ratio: 2/1; background: var(--c-bone); padding: var(--s-7);">
+              <!-- mockup HTML de orçamento -->
+              <div style="background: white; width: 100%; height: 100%; padding: 24px 32px; box-shadow: 0 12px 32px -16px rgba(10,31,92,0.18); display: grid; grid-template-rows: auto auto 1fr auto;">
+                <!-- header -->
+                <div style="display: grid; grid-template-columns: auto 1fr auto; gap: 16px; align-items: center; padding-bottom: 12px; border-bottom: 2px solid var(--c-navy-900);">
+                  <svg viewBox="0 0 200 200" width="40" height="40" style="color:var(--c-yellow-500)">
+                    <use href="#cc-mark" width="200" height="200"/>
+                  </svg>
+                  <div>
+                    <div style="font-family:var(--ff-display);font-weight:900;font-size:18px;color:var(--c-navy-900);letter-spacing:-0.5px;">CONCRECIA</div>
+                    <div style="font-family:var(--ff-mono);font-size:8px;color:var(--fg-mute);letter-spacing:1.5px;">ORÇAMENTO Nº 2026-0142</div>
+                  </div>
+                  <div style="text-align:right;font-family:var(--ff-mono);font-size:8px;color:var(--fg-mute);letter-spacing:1.5px;">EMITIDO EM 21/MAI/2026</div>
+                </div>
+                <!-- cliente -->
+                <div style="padding: 12px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                  <div>
+                    <div style="font-family:var(--ff-mono);font-size:7px;color:var(--fg-mute);letter-spacing:1.5px;">CLIENTE</div>
+                    <div style="font-family:var(--ff-body);font-size:11px;color:var(--fg);font-weight:600;">Construtora Modelo Ltda.</div>
+                  </div>
+                  <div>
+                    <div style="font-family:var(--ff-mono);font-size:7px;color:var(--fg-mute);letter-spacing:1.5px;">OBRA</div>
+                    <div style="font-family:var(--ff-body);font-size:11px;color:var(--fg);font-weight:600;">Residencial Horizonte · Quadra 12</div>
+                  </div>
+                </div>
+                <!-- tabela -->
+                <div style="border-top:1px solid var(--rule);padding-top:8px;">
+                  <div style="display:grid;grid-template-columns:60px 1fr 70px 80px;font-family:var(--ff-mono);font-size:7px;letter-spacing:1px;color:var(--fg-mute);padding-bottom:6px;border-bottom:1px solid var(--rule);">
+                    <span>FCK</span><span>DESCRIÇÃO</span><span style="text-align:right;">M³</span><span style="text-align:right;">VALOR</span>
+                  </div>
+                  <div style="display:grid;grid-template-columns:60px 1fr 70px 80px;font-family:var(--ff-body);font-size:10px;padding:6px 0;border-bottom:1px solid var(--rule);">
+                    <span style="font-family:var(--ff-mono);font-weight:600;">25 MPa</span><span>Concreto bombeado · brita 1</span><span style="text-align:right;font-family:var(--ff-mono);">12,0</span><span style="text-align:right;font-family:var(--ff-mono);font-weight:600;color:var(--c-navy-900);">R$ X.XXX</span>
+                  </div>
+                  <div style="display:grid;grid-template-columns:60px 1fr 70px 80px;font-family:var(--ff-body);font-size:10px;padding:6px 0;">
+                    <span style="font-family:var(--ff-mono);font-weight:600;">30 MPa</span><span>Concreto estrutural · brita 0/1</span><span style="text-align:right;font-family:var(--ff-mono);">8,0</span><span style="text-align:right;font-family:var(--ff-mono);font-weight:600;color:var(--c-navy-900);">R$ X.XXX</span>
+                  </div>
+                </div>
+                <!-- footer -->
+                <div style="display:grid;grid-template-columns:1fr auto;align-items:end;border-top:2px solid var(--c-navy-900);padding-top:8px;">
+                  <div style="font-family:var(--ff-mono);font-size:7px;color:var(--fg-mute);letter-spacing:1.5px;">VALIDADE 7 DIAS · CONDIÇÃO À VISTA OU 28DDL</div>
+                  <div>
+                    <div style="font-family:var(--ff-mono);font-size:7px;color:var(--fg-mute);letter-spacing:1.5px;text-align:right;">TOTAL</div>
+                    <div style="font-family:var(--ff-display);font-size:18px;font-weight:900;color:var(--c-navy-900);letter-spacing:-0.5px;">R$ XX.XXX,00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="app-card__meta">
+              <div>
+                <div class="app-card__title">Proposta Comercial</div>
+                <div class="app-card__sub">A4 · Header institucional + tabela técnica</div>
+              </div>
+              <div class="app-card__num">APP-07</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         09 — TOM DE COMUNICAÇÃO
+    ======================================================== -->
+    <section class="section" id="sec-09">
+      <header class="section__meta">
+        <div>
+          <div class="section__num">09 / 10 — COMUNICAÇÃO</div>
+          <h2 class="section__title">Tom.</h2>
+        </div>
+        <div class="section__counter">PÁG. 30</div>
+      </header>
+
+      <div class="grid">
+        <div class="col-5">
+          <p class="eyebrow eyebrow--accent">VOZ DA MARCA</p>
+          <p class="lead" style="margin-top: var(--s-4);">Direta. Técnica. Sem rodeios. A CONCRECIA fala como entrega: com precisão.</p>
+        </div>
+        <div class="col-7">
+          <p class="body body--dim">A comunicação CONCRECIA opera no mesmo princípio da operação: o que foi prometido, foi cumprido. Frases curtas. Verbo no presente. Substantivos concretos. Adjetivos só quando agregam informação real. Nunca exagero, nunca jargão de marketing — porque o cliente percebe na primeira leitura.</p>
+        </div>
+      </div>
+
+      <!-- VOICE DOs / DON'Ts -->
+      <div class="voice-grid" style="margin-top: var(--s-9);">
+        <div class="voice-col voice-col--do">
+          <h4>FAZER</h4>
+          <ul>
+            <li>Falar como engenheiro: claro, exato, sem floreio.</li>
+            <li>Apresentar dados quando existem (m³, MPa, prazo, frota).</li>
+            <li>Usar verbos de ação no presente — "entregamos", "cumprimos", "controlamos".</li>
+            <li>Confirmar o compromisso. A marca assume responsabilidade.</li>
+            <li>Tratar o cliente como decisor competente.</li>
+          </ul>
+        </div>
+        <div class="voice-col voice-col--dont">
+          <h4>EVITAR</h4>
+          <ul>
+            <li>Slogans vazios e superlativos genéricos ("a melhor", "a maior").</li>
+            <li>Tom emocional excessivo ou paternalista.</li>
+            <li>Jargão corporativo de redes sociais ("vem com a gente", "bora?").</li>
+            <li>Pontuação exclamativa em série, emojis e gírias.</li>
+            <li>Promessas sem critério técnico ou prazo definido.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- EXAMPLES -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">EXEMPLOS POR CONTEXTO</p>
+        </div>
+
+        <div class="col-6">
+          <div class="example">
+            <div class="example__label">HEADLINE INSTITUCIONAL</div>
+            <p class="example__quote">"Concreto certo, no horário certo. Quinze anos cumprindo o que combina."</p>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="example">
+            <div class="example__label">REDES SOCIAIS · PRODUTO</div>
+            <p class="example__quote">"Concreto bombeado fck 30 MPa. Frota própria. Entrega programada em até 24h na grande Ribeirão."</p>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="example">
+            <div class="example__label">ATENDIMENTO COMERCIAL</div>
+            <p class="example__quote">"Bom dia. Para fechar o pedido preciso de três dados: volume, fck e endereço. Em 15 minutos te mando a proposta."</p>
+          </div>
+        </div>
+
+        <div class="col-6" style="margin-top: var(--s-5);">
+          <div class="example">
+            <div class="example__label">RESPOSTA A IMPREVISTO</div>
+            <p class="example__quote">"Houve atraso de 40 min na descarga anterior. Próxima chegada na sua obra: 14h25. Confirmamos o traço solicitado."</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- AXES -->
+      <div class="grid" style="margin-top: var(--s-9);">
+        <div class="col-12">
+          <p class="eyebrow" style="margin-bottom: var(--s-5);">EIXOS DE TOM</p>
+          <div style="display: grid; gap: var(--s-5);">
+            <div style="display: grid; grid-template-columns: 180px 1fr 180px; gap: var(--s-5); align-items: center;">
+              <span class="mono label">FORMAL</span>
+              <div style="position: relative; height: 4px; background: var(--c-stone-200);">
+                <div style="position: absolute; left: 70%; top: -6px; width: 4px; height: 16px; background: var(--c-yellow-500);"></div>
+              </div>
+              <span class="mono label" style="text-align: right;">CASUAL</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 180px 1fr 180px; gap: var(--s-5); align-items: center;">
+              <span class="mono label">TÉCNICO</span>
+              <div style="position: relative; height: 4px; background: var(--c-stone-200);">
+                <div style="position: absolute; left: 25%; top: -6px; width: 4px; height: 16px; background: var(--c-yellow-500);"></div>
+              </div>
+              <span class="mono label" style="text-align: right;">ACESSÍVEL</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 180px 1fr 180px; gap: var(--s-5); align-items: center;">
+              <span class="mono label">SÉRIO</span>
+              <div style="position: relative; height: 4px; background: var(--c-stone-200);">
+                <div style="position: absolute; left: 18%; top: -6px; width: 4px; height: 16px; background: var(--c-yellow-500);"></div>
+              </div>
+              <span class="mono label" style="text-align: right;">DIVERTIDO</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 180px 1fr 180px; gap: var(--s-5); align-items: center;">
+              <span class="mono label">DIRETO</span>
+              <div style="position: relative; height: 4px; background: var(--c-stone-200);">
+                <div style="position: absolute; left: 12%; top: -6px; width: 4px; height: 16px; background: var(--c-yellow-500);"></div>
+              </div>
+              <span class="mono label" style="text-align: right;">ELABORADO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         10 — ENCERRAMENTO
+    ======================================================== -->
+    <section class="closing" id="sec-10">
+      <div class="closing__inner">
+        <div class="closing__mark" style="color: var(--c-yellow-500);">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <use href="#cc-mark" width="200" height="200"/>
+          </svg>
+        </div>
+
+        <p class="eyebrow eyebrow--accent" style="margin-bottom: var(--s-5);">10 / 10 — ENCERRAMENTO</p>
+
+        <h2 class="closing__title">A CONCRECIA é o<br/>concreto que <em>cumpre.</em></h2>
+
+        <p class="closing__body">
+          Uma concreteira moderna, tecnologicamente estruturada e organizada para o futuro do setor. Robusta na operação, premium na entrega, confiável em cada metro cúbico. Esta identidade é a expressão visual desse compromisso — e o ponto de partida para tudo o que a marca vai construir daqui em diante.
+        </p>
+
+        <div class="closing__credits">
+          <div>
+            <span class="k">DOCUMENTO</span>
+            <span class="v">Brand Book CONCRECIA</span>
+          </div>
+          <div>
+            <span class="k">VERSÃO</span>
+            <span class="v">1.0 · Maio 2026</span>
+          </div>
+          <div>
+            <span class="k">CONTATO</span>
+            <span class="v">contato@concrecia.com.br</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="scripts/nav.js" defer></script>
+</body>
+</html>
