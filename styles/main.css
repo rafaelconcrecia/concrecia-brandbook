@@ -414,6 +414,8 @@ ul, ol { list-style: none; }
 .logo-stage--yellow { background: var(--c-yellow-500); border-color: var(--c-yellow-600); }
 .logo-stage--mono { background: var(--c-bone); }
 .logo-stage svg { width: 56%; height: auto; }
+.logo-stage img { width: 56%; height: auto; display: block; }
+.logo-clearspace img { width: 50%; height: auto; display: block; }
 .logo-stage__label {
   position: absolute;
   bottom: var(--s-4); left: var(--s-4);
