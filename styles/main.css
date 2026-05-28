@@ -399,6 +399,9 @@ ul, ol { list-style: none; }
   text-transform: uppercase;
   letter-spacing: var(--ls-tight);
 }
+.section--dark .value-card__name { color: var(--c-white); }
+.section--dark .value-card__num { color: var(--c-stone-400); }
+.section--dark .value-card { border-top-color: var(--c-yellow-500); }
 .value-card__desc { color: var(--fg-dim); font-size: var(--fs-16); line-height: var(--lh-relaxed); }
 
 /* =========================================================

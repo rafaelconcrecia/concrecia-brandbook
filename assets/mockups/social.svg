@@ -50,9 +50,9 @@
       fill="#F5C518" letter-spacing="2">CONCRECIA / 01</text>
 
     <!-- título grande -->
-    <text x="20" y="120" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="20" y="120" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="40" fill="#FFFFFF" letter-spacing="-1.5">CONCRETO</text>
-    <text x="20" y="158" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="20" y="158" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="40" fill="#F5C518" letter-spacing="-1.5">DE OBRA.</text>
 
     <!-- linha técnica -->
@@ -87,11 +87,11 @@
       fill="#0A1F5C" letter-spacing="2">STORIES • 02</text>
 
     <!-- título -->
-    <text x="12" y="120" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="12" y="120" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="22" fill="#0A1F5C" letter-spacing="-0.8">QUALIDADE</text>
-    <text x="12" y="146" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="12" y="146" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="22" fill="#0A1F5C" letter-spacing="-0.8">QUE A SUA</text>
-    <text x="12" y="172" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="12" y="172" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="22" fill="#0A1F5C" letter-spacing="-0.8">OBRA EXIGE.</text>
 
     <line x1="12" y1="186" x2="50" y2="186" stroke="#F5C518" stroke-width="2"/>
@@ -123,9 +123,9 @@
     <text x="14" y="98" font-family="JetBrains Mono, monospace" font-size="8"
       fill="#F5C518" letter-spacing="2">15 ANOS DE OPERAÇÃO</text>
 
-    <text x="14" y="148" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="14" y="148" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="26" fill="#FFFFFF" letter-spacing="-1">CONSTRUINDO</text>
-    <text x="14" y="180" font-family="Archivo, Impact, Arial, sans-serif"
+    <text x="14" y="180" font-family="Montserrat, Impact, Arial, sans-serif"
       font-weight="900" font-size="26" fill="#F5C518" letter-spacing="-1">CONFIANÇA</text>
 
     <line x1="14" y1="200" x2="60" y2="200" stroke="#F5C518" stroke-width="2"/>
