@@ -42,7 +42,7 @@
   --primary:           var(--c-navy-900);
 
   /* ---------- TYPE — FAMILIES ---------- */
-  --ff-display:        "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --ff-display:        "Manrope", "Helvetica Neue", Arial, sans-serif;
   --ff-body:           "Inter", system-ui, -apple-system, sans-serif;
   --ff-mono:           "JetBrains Mono", "SF Mono", Consolas, monospace;
 
@@ -125,6 +125,6 @@
 
 /* =========================================================
    FONT IMPORT
-   Montserrat (display) + Inter (body) + JetBrains Mono (specs)
+   Manrope (display) + Inter (body) + JetBrains Mono (specs)
    ========================================================= */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');

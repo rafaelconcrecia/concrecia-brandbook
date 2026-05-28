@@ -65,7 +65,7 @@ concrecia-brandbook/
 | **02** | Conceito | Essência, arquétipo (O Construtor), valores |
 | **03** | Logo | Símbolo, versões, área de proteção, usos incorretos |
 | **04** | Paleta | Cores primárias, apoio, neutros, especificações (HEX/RGB/CMYK/Pantone) |
-| **05** | Tipografia | Montserrat + Inter + JetBrains Mono · escala completa |
+| **05** | Tipografia | Manrope + Inter + JetBrains Mono · escala completa |
 | **06** | Elementos | Padrões gráficos · regras de composição · aplicação por canal |
 | **07** | Fotografia | Direção de imagem · iluminação · enquadramento · tratamento |
 | **08** | Aplicações | Caminhão, cartão, uniforme, fachada, email, social, orçamento |
@@ -99,7 +99,7 @@ O `print.css` já está configurado para otimizar quebras de página, esconder n
 | Bone | `#F4F2ED` | Fundos claros |
 
 ### Tipografia
-- **Display:** Montserrat (300-900) — Google Fonts
+- **Display:** Manrope (200-800) — Google Fonts
 - **Body:** Inter (300-700) — Google Fonts
 - **Mono:** JetBrains Mono (400-700) — Google Fonts
 
