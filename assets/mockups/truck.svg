@@ -60,11 +60,8 @@
       <path d="M 40,90 Q 200,140 360,90" fill="none" stroke="#0A1F5C" stroke-width="2" opacity="0.4"/>
       <path d="M 80,60 Q 200,90 320,120" fill="none" stroke="#0A1F5C" stroke-width="2" opacity="0.4"/>
 
-      <!-- LOGO no tambor — símbolo acima, wordmark abaixo -->
-      <g transform="translate(105 60) scale(0.9)">
-        <use href="#cc-mark" x="75" y="-25" width="50" height="50" color="#F5C518"/>
-        <use href="#cc-wordmark" x="30" y="33" width="140" height="24" color="#0A1F5C"/>
-      </g>
+      <!-- LOGO oficial no tambor -->
+      <image href="../logo-concrecia.png" x="140" y="30" width="120" height="120" preserveAspectRatio="xMidYMid meet"/>
     </g>
   </g>
 

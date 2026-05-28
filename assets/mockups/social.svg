@@ -62,7 +62,7 @@
 
     <!-- logo canto -->
     <g transform="translate(220 240)">
-      <use href="#cc-mark" width="36" height="36" color="#0A1F5C"/>
+      <image href="../logo-concrecia-symbol-navy.png" width="36" height="40" preserveAspectRatio="xMidYMid meet"/>
     </g>
 
     <text x="140" y="312" text-anchor="middle"
@@ -116,10 +116,8 @@
 
     <!-- bloco amarelo no canto -->
     <rect width="180" height="60" fill="#F5C518"/>
-    <g transform="translate(14 14)">
-      <use href="#cc-mark" width="48" height="48" color="#0A1F5C"/>
-    </g>
-    <use href="#cc-wordmark" x="78" y="22" width="96" height="16" color="#0A1F5C"/>
+    <!-- LOGO OFICIAL no header amarelo -->
+    <image href="../logo-concrecia-mono-navy.png" x="10" y="-15" width="170" height="90" preserveAspectRatio="xMidYMid meet"/>
 
     <!-- conteúdo -->
     <text x="14" y="98" font-family="JetBrains Mono, monospace" font-size="8"

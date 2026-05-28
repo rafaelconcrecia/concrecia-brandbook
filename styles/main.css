@@ -147,6 +147,8 @@ ul, ol { list-style: none; }
   display: flex; align-items: center; justify-content: center;
 }
 .rail__mark svg { width: 28px; height: 28px; }
+.rail__mark img { width: 28px; height: auto; display: block; }
+.rail__mark-img { width: 28px; height: auto; }
 .rail__vert {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -247,6 +249,7 @@ ul, ol { list-style: none; }
   color: var(--c-stone-300);
 }
 .hero__brand svg { width: 28px; height: 28px; }
+.hero__brand img { width: 28px; height: auto; display: block; }
 .hero__edition {
   font-family: var(--ff-mono); font-size: var(--fs-12);
   letter-spacing: var(--ls-wider); text-transform: uppercase;
@@ -466,6 +469,10 @@ ul, ol { list-style: none; }
   overflow: hidden;
 }
 .dont svg { width: 65%; opacity: 0.85; }
+.dont__img { width: 45%; height: auto; display: block; opacity: 0.92; }
+.dont__img--stretch { transform: scaleX(1.6) scaleY(0.6); }
+.dont__img--rotate { transform: rotate(22deg); }
+.dont__img--blur { filter: blur(3px); }
 .dont::after {
   content: ""; position: absolute;
   top: 50%; left: 0; right: 0;
@@ -758,6 +765,16 @@ ul, ol { list-style: none; }
 .app-card__visual--dark { background: var(--c-navy-950); }
 .app-card__visual--yellow { background: var(--c-yellow-500); }
 .app-card__visual svg { max-width: 90%; max-height: 90%; }
+.app-card__visual .mockup-object,
+.app-card__visual object {
+  max-width: 90%;
+  max-height: 90%;
+  width: 90%;
+  aspect-ratio: 800 / 360;
+  display: block;
+  pointer-events: none;
+  border: 0;
+}
 .app-card__meta {
   padding: var(--s-5);
   display: grid; grid-template-columns: 1fr auto; gap: var(--s-3);
@@ -828,6 +845,7 @@ ul, ol { list-style: none; }
 }
 .closing__inner { text-align: center; max-width: 980px; position: relative; z-index: 2; }
 .closing__mark svg { width: 80px; margin: 0 auto var(--s-6); }
+.closing__mark img { width: 80px; height: auto; margin: 0 auto var(--s-6); display: block; }
 .closing__title {
   font-family: var(--ff-display);
   font-size: clamp(var(--fs-48), 7vw, var(--fs-96));

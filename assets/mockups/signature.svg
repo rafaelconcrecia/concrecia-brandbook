@@ -38,10 +38,8 @@
 
     <!-- assinatura -->
     <g transform="translate(0 50)">
-      <!-- logo -->
-      <g transform="translate(0 0)">
-        <use href="#cc-mark" width="80" height="80" color="#F5C518"/>
-      </g>
+      <!-- logo oficial -->
+      <image href="../logo-concrecia-symbol-yellow.png" x="0" y="0" width="80" height="90" preserveAspectRatio="xMidYMid meet"/>
 
       <!-- divisor vertical amarelo -->
       <rect x="100" y="0" width="3" height="120" fill="#F5C518"/>

@@ -44,11 +44,8 @@
     <rect x="129" y="48" width="6" height="14" fill="#D4A912" rx="2"/>
     <rect x="153" y="55" width="6" height="14" fill="#D4A912" rx="2"/>
 
-    <!-- LOGO frontal — símbolo acima, wordmark abaixo -->
-    <g transform="translate(85 80)">
-      <use href="#cc-mark" x="15" y="0" width="48" height="48" color="#0A1F5C"/>
-      <use href="#cc-wordmark" x="-1" y="55" width="80" height="14" color="#0A1F5C"/>
-    </g>
+    <!-- LOGO OFICIAL frontal -->
+    <image href="../logo-concrecia-mono-navy.png" x="65" y="60" width="130" height="130" preserveAspectRatio="xMidYMid meet"/>
 
     <!-- jugular -->
     <line x1="30" y1="160" x2="20" y2="200" stroke="#5E5B53" stroke-width="2"/>
@@ -73,11 +70,8 @@
     <!-- bolso -->
     <rect x="80" y="100" width="50" height="40" fill="none" stroke="#142A75" stroke-width="1.5"/>
 
-    <!-- LOGO peito direito — símbolo acima, wordmark abaixo -->
-    <g transform="translate(150 95)">
-      <use href="#cc-mark" x="0" y="0" width="36" height="36" color="#F5C518"/>
-      <use href="#cc-wordmark" x="-12" y="40" width="60" height="11" color="#FFFFFF"/>
-    </g>
+    <!-- LOGO OFICIAL peito direito -->
+    <image href="../logo-concrecia-white.png" x="140" y="85" width="80" height="80" preserveAspectRatio="xMidYMid meet"/>
 
     <text x="130" y="262" text-anchor="middle"
       font-family="JetBrains Mono, monospace" font-size="9"

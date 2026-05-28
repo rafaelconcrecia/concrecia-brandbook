@@ -41,9 +41,8 @@
     <!-- faixa amarela inferior -->
     <rect y="174" width="320" height="16" fill="#F5C518"/>
 
-    <!-- LOCKUP centralizado: símbolo acima, wordmark abaixo -->
-    <use href="#cc-mark" x="130" y="18" width="60" height="60" color="#F5C518"/>
-    <use href="#cc-wordmark" x="70" y="84" width="180" height="31" color="#FFFFFF"/>
+    <!-- LOGO OFICIAL centralizado -->
+    <image href="../logo-concrecia-white.png" x="90" y="14" width="140" height="140" preserveAspectRatio="xMidYMid meet"/>
 
     <!-- tagline -->
     <text x="160" y="135" text-anchor="middle" font-family="JetBrains Mono, monospace"
@@ -80,7 +79,7 @@
     </g>
 
     <!-- mark canto -->
-    <use href="#cc-mark" x="260" y="30" width="40" height="40" color="#0A1F5C"/>
+    <image href="../logo-concrecia-symbol-navy.png" x="260" y="30" width="40" height="40" preserveAspectRatio="xMidYMid meet"/>
   </g>
 
   <!-- legenda -->
